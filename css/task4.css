@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+.header{
+    width: 100%;
+    height: 599px;
+    background:linear-gradient(rgba(0,0,0,0.05),rgba(0,0,0,0.05)), url('/img/kerala.jpg');
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+nav{
+    width: 100%;
+    height: 50px;
+    padding: 10px 50px;
+    display: flex;
+}
+nav .logo{
+    text-align: left;
+    display: flex;
+}
+.logo h4{
+    font-size: 22px;
+    font-weight: 350;
+    letter-spacing: 1px;
+}
+.logo h4 span{
+    font-weight: bold;
+
+}
+nav .list{
+    display: flex;
+    font-size: small;
+    font-weight: bold;
+    padding-left: 793px;
+}
+nav ul{
+    list-style-type: none;
+    display: block;
+}
+nav ul li{
+    display: inline;
+    padding: 15px 0 15px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.content {
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    
+}
+.content .text{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.content .text h1{
+    font-size: 50px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    padding-top: 88px;
+}
+.content .text h1 span{
+    font-weight: 800;
+}
+.content .text h4{
+    font-size: 23px;
+    font-weight:400;
+    letter-spacing: 1.5px;
+    padding-bottom: 15px;
+}
+.content .text h5{
+    font-size: large;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-left: 414px;
+    text-align: justify;
+}
+.content .button {
+    position: relative;
+    padding: 19px 400px;
+    text-align: left;
+}
+.content button{
+    border-radius: 50px;
+    border: none;
+}
+.content .button .icon{
+    text-align: left;
+    float: left;
+}
+.content .button .icon span{
+    margin: -2.5px 0 0 -379px;
+    color: #999;
+}
+.content .button .text{
+    color: #999;
+    font-size: large;
+    margin-left: -558px;
+}
+.content .btn{
+    position: absolute;
+    background-color: #f87e19;
+    padding: 17px 54px;
+    border-radius: 50px;
+    margin: -31.4px 0 0 -183px;
+    z-index: 5;
+  
+}
+.content .btn .text{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+.content .btn .text h6{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.text h6{
+    margin-left: -22px;
+}
+.content .btn .icon span{
+    position: absolute;
+    margin: -23px 0 0 49px;
+    color: white;
+    z-index: 9;
+}
+ .content .para h6{
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+ }
